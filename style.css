@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* BODY – LIGHT */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #f2f3f5;   /* LIGHT GREY / OFF-WHITE */
+  color: #000;
+}
+
+/* HERO – PHOTO ONLY (NO DARK) */
+.hero {
+  min-height: 100vh;
+  background: url("images/bg.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 15px;
+}
+
+/* PROFILE CARD */
+.profile {
+  background: rgba(255,255,255,0.92);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(0,0,0,0.08);
+  padding: 32px 26px;
+  border-radius: 26px;
+  width: 330px;
+  text-align: center;
+  box-shadow: 0 25px 50px rgba(0,0,0,0.25);
+}
+
+/* IMAGE */
+.profile img {
+  width: 150px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50% / 60%;
+  border: 4px solid #fff;
+  margin-bottom: 15px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+}
+
+/* TEXT */
+.profile h1 {
+  font-size: 28px;
+  color: #000;
+}
+
+.profile h3 {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.bio {
+  font-size: 13px;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+/* STATS */
+.stats {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.stats div {
+  background: #f1f3f5;
+  padding: 8px 10px;
+  border-radius: 10px;
+  width: 90px;
+}
+
+.stats strong {
+  font-size: 14px;
+  color: #000;
+}
+
+.stats span {
+  font-size: 11px;
+  color: #666;
+}
+
+/* LINKS */
+.links a {
+  display: block;
+  margin: 8px 0;
+  padding: 12px;
+  background: linear-gradient(135deg, #0095f6, #0069c0);
+  color: #fff;
+  text-decoration: none;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+/* DETAILS */
+.details {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+/* DETAILS CARD */
+.details section {
+  background: #ffffff;
+  padding: 22px;
+  margin-bottom: 25px;
+  border-radius: 18px;
+  box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+}
+
+.details h2 {
+  color: #0077cc;
+  margin-bottom: 10px;
+}
+
+.details p {
+  font-size: 14px;
+  color: #333;
+}
+
+/* BIO TABLE */
+.bio-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.bio-table th,
+.bio-table td {
+  padding: 14px;
+  border-bottom: 1px solid #ddd;
+  font-size: 14px;
+}
+
+.bio-table th {
+  width: 40%;
+  color: #555;
+}
+
+.bio-table tr:last-child th,
+.bio-table tr:last-child td {
+  border-bottom: none;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 16px;
+  font-size: 12px;
+  opacity: 0.8;
+  background: #000;      /* PURE BLACK */
+  color: #aaa;
+}
